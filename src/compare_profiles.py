@@ -114,7 +114,7 @@ def main():
     ]:
         print(f"  {lab:<28}{res['cax'][key]:>10.2f}{res['mean'][key]:>17.2f}")
     print(
-        f"  {'Quoted as (Simon style)':<28}{'±%.2f' % (res['cax']['spread'] / 2):>10}"
+        f"  {'Quoted as (Simon et al. 2009)':<28}{'±%.2f' % (res['cax']['spread'] / 2):>10}"
         f"{'±%.2f' % (res['mean']['spread'] / 2):>17}"
     )
 
